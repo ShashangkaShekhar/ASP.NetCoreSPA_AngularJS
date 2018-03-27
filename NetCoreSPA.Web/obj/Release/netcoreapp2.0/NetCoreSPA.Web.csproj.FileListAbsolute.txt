@@ -1,0 +1,11 @@
+D:\Article\NetCoreSPA\NetCoreSPA\NetCoreSPA.Web\bin\Release\netcoreapp2.0\NetCoreSPA.Web.deps.json
+D:\Article\NetCoreSPA\NetCoreSPA\NetCoreSPA.Web\bin\Release\netcoreapp2.0\NetCoreSPA.Web.runtimeconfig.json
+D:\Article\NetCoreSPA\NetCoreSPA\NetCoreSPA.Web\bin\Release\netcoreapp2.0\NetCoreSPA.Web.runtimeconfig.dev.json
+D:\Article\NetCoreSPA\NetCoreSPA\NetCoreSPA.Web\bin\Release\netcoreapp2.0\NetCoreSPA.Web.dll
+D:\Article\NetCoreSPA\NetCoreSPA\NetCoreSPA.Web\bin\Release\netcoreapp2.0\NetCoreSPA.Web.pdb
+D:\Article\NetCoreSPA\NetCoreSPA\NetCoreSPA.Web\obj\Release\netcoreapp2.0\NetCoreSPA.Web.csprojResolveAssemblyReference.cache
+D:\Article\NetCoreSPA\NetCoreSPA\NetCoreSPA.Web\obj\Release\netcoreapp2.0\NetCoreSPA.Web.csproj.CoreCompileInputs.cache
+D:\Article\NetCoreSPA\NetCoreSPA\NetCoreSPA.Web\obj\Release\netcoreapp2.0\NetCoreSPA.Web.AssemblyInfoInputs.cache
+D:\Article\NetCoreSPA\NetCoreSPA\NetCoreSPA.Web\obj\Release\netcoreapp2.0\NetCoreSPA.Web.AssemblyInfo.cs
+D:\Article\NetCoreSPA\NetCoreSPA\NetCoreSPA.Web\obj\Release\netcoreapp2.0\NetCoreSPA.Web.dll
+D:\Article\NetCoreSPA\NetCoreSPA\NetCoreSPA.Web\obj\Release\netcoreapp2.0\NetCoreSPA.Web.pdb
