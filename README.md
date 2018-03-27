@@ -4,7 +4,7 @@ Single-Page Applications (SPA)
 2.	AngularJS
 3.	MSSQL
 
-Mechanism 
+Key Point
 1.	Manage Packages
 2.	Add AngularJS
 3.	Routing using Angular-UI-Router
