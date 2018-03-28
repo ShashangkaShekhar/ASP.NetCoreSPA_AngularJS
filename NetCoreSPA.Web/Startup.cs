@@ -47,10 +47,6 @@ namespace NetCoreSPA.Web
                 app.UseBrowserLink();
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-            }
 
             //app-specific root page(Index.html)
             app.Use(async (context, next) =>
