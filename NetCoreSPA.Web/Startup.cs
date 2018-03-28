@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -40,26 +40,30 @@ namespace NetCoreSPA.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            var defaultpage = "index.html";
-
             if (env.IsDevelopment())
             {
                 app.UseBrowserLink();
                 app.UseDeveloperExceptionPage();
             }
 
-            //app-specific root page(Index.html)
+            // Middleware to handle all request
             app.Use(async (context, next) =>
             {
                 await next();
                 if (context.Response.StatusCode == 404 && !Path.HasExtension(context.Request.Path.Value))
                 {
-                    context.Request.Path = "/" + defaultpage;
+                    context.Request.Path = "/index.html";
+                    context.Response.StatusCode = 200;
                     await next();
                 }
             });
-            app.UseDefaultFiles(new DefaultFilesOptions { DefaultFileNames = new List<string> { defaultpage } });
+
+            DefaultFilesOptions options = new DefaultFilesOptions();
+            options.DefaultFileNames.Clear();
+            options.DefaultFileNames.Add("/index.html");
+            app.UseDefaultFiles(options);
             app.UseStaticFiles();
+            app.UseFileServer(enableDirectoryBrowsing: false);
             app.UseMvc();
         }
     }
