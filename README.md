@@ -6,13 +6,12 @@ Single-Page Applications (SPA)
 
 Key Point
 1.	Manage Packages
-2.	Add AngularJS
-3.	Routing using Angular-UI-Router
-4.	Minify Custom Angular Script
-5.	Copy Views to wwwroot
-6.	Add Middleware
-7.	Web-API
-8.	Enable CORS
-9.	Scaffolding MSSQL Database 
-10.	Test Application (CRUD)
-11.	Publish in IIS
+2.	Transfer Libraries Using Gulp
+3.	Working with AngularJs App
+4.	Adding Middleware
+5.	Scaffolding MSSQL Database
+6.	Web-API
+7.	Enable CORS
+8.	Build AngularJS App Using Gulp
+9.	Test Application (CRUD)
+10.	Publish in IIS
